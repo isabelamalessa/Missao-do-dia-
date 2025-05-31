@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Missão do Dia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://i.imgur.com/NGfAGGq.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .painel {
+      display: flex;
+      justify-content: space-around;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.95);
+      margin: 20px;
+      border-radius: 12px;
+      flex-wrap: wrap;
+    }
+    .coluna {
+      width: 300px;
+      margin: 10px;
+      background: white;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .coluna h2 {
+      text-align: center;
+    }
+    .foto {
+      text-align: center;
+    }
+    .foto img {
+      width: 80px;
+      border-radius: 50%;
+    }
+    .tarefa, .conduta {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+      justify-content: space-between;
+    }
+    .tarefa img, .conduta img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+    .acoes {
+      display: flex;
+      gap: 5px;
+    }
+    .acoes button {
+      font-size: 16px;
+      padding: 4px 8px;
+    }
+    .titulo {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: red;
+      background: yellow;
+      margin: 20px;
+      padding: 10px;
+      border: 3px solid red;
+      border-radius: 10px;
+    }
+    .tempo {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="titulo">MISSÃO DO DIA</div>
+  <div class="painel">
+    <div class="coluna">
+      <div class="foto">
+        <img src="https://i.imgur.com/FEtSRvU.png" alt="Miguel">
+        <div class="tempo">🕒 45</div>
+      </div>
+      <h2>Miguel</h2>
+      <div class="tarefa"><img src="https://i.imgur.com/XE5VRZt.png"><span>Escovar os dentes</span><span>✔ ✘</span></div>
+      <div class="tarefa"><img src="https://i.imgur.com/PO1YrWk.png"><span>Tomar banho</span><span>✔ ✘</span></div>
+      <div class="tarefa"><img src="https://i.imgur.com/GV5R8Mg.png"><span>Vestir-se</span><span>✔ ✘</span></div>
+      <div class="tarefa"><img src="https://i.imgur.com/MRkIPn6.png"><span>Lição de casa</span><span>✔ ✘</span></div>
+    </div>
+    <div class="coluna">
+      <div class="foto">
+        <img src="https://i.imgur.com/euDUc7r.png" alt="Matheus">
+        <div class="tempo">🕒 30</div>
+      </div>
+      <h2>Matheus</h2>
+      <div class="tarefa"><img src="https://i.imgur.com/tKTAWWB.png"><span>Arrumar a cama</span><span>✔ ✘</span></div>
+      <div class="tarefa"><img src="https://i.imgur.com/PO1YrWk.png"><span>Tomar banho</span><span>✔ ✘</span></div>
+      <div class="tarefa"><img src="https://i.imgur.com/GV5R8Mg.png"><span>Vestir-se</span><span>✔ ✘</span></div>
+      <div class="tarefa"><img src="https://i.imgur.com/MRkIPn6.png"><span>Lição de casa</span><span>✔ ✘</span></div>
+    </div>
+    <div class="coluna">
+      <h2>Má Conduta</h2>
+      <div class="conduta"><img src="https://i.imgur.com/lS1lEfL.png"><span>Não bater</span></div>
+      <div class="conduta"><img src="https://i.imgur.com/Jke8dJu.png"><span>Não gritar</span></div>
+      <div class="conduta"><img src="https://i.imgur.com/bHgYkRe.png"><span>Não fazer birra</span></div>
+      <div class="conduta"><img src="https://i.imgur.com/SKRIYkF.png"><span>Não desobedecer</span></div>
+    </div>
+  </div>
+</body>
+</html>
